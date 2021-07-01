@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: darkslategrey;
+    color: floralwhite;
+    padding: 20px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.feed {
+    background-color: floralwhite;
+    color: darkslategrey;
+    padding: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    gap: 2.5em;
+}
+
+.col1{
+    flex: 1;
+
+}
+
+.col2{
+    flex: 2;
+}
+
+.cardbox {
+    border: 5px solid black;
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    gap: 1.5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+.cardbox  img {
+    height: 90px;
+    border-radius: 50%;
+}
+
+.box1, .box2, .box3 {
+    background-color: floralwhite;
+    border: 5px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.row1, .row3, .row5 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row2, .row4, .row6 {
+    font-size: 20px;
+}
+
+.button1, .button2, .button3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.like {
+    height: 30px;
+    width: 75px;
+    box-shadow: 2px 2px rgb(160, 140, 140);
+}
+
